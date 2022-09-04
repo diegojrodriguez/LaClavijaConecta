@@ -1,0 +1,55 @@
+@import "variables";
+
+header {
+    display: flex;
+    grid-area: header;
+    color: $colorFondo;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+
+    .imagenLogo {
+        width: 7rem;
+        align-content: stretch;
+        list-style-type: none;
+    }
+
+    .fontNav {
+
+
+        li {
+           /* display: inline-block;*/
+            padding: 10px;
+            
+
+            a {
+                background-color: black;
+                justify-content: space-between;
+                /*text-decoration: none;*/
+                color: $colorSubtitulos;
+                font-size: 15px;
+
+                &:hover {
+                    background-color: $colorFondo;
+                    font-weight: bold;
+                }
+            }
+        }
+
+
+
+        .itemSelect,
+        .botonNav {
+            background-color: $colorFondo ;
+        }
+    }
+
+    nav li a{
+        text-decoration: none;
+        &:hover {
+            background-color: aquamarine;
+        }       
+    }
+
+}

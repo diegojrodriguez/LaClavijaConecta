@@ -1,0 +1,11 @@
+/*MAPAS*/
+
+$mapaCreador:(nombre:gray  , telefono:blue);
+
+@each $dato, $color in $mapaCreador {
+    .#{$dato} {
+        color: $color;
+    }
+}
+
+

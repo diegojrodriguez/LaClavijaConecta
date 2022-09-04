@@ -1,0 +1,12 @@
+/* EXTEND */
+
+.estiloCreador {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+}
+
+.estiloCreadorMail {
+    @extend .estiloCreador;
+    font-style: italic;
+}
+
