@@ -37,19 +37,17 @@ header {
             }
         }
 
-
-
         .itemSelect,
         .botonNav {
             background-color: $colorFondo ;
         }
     }
 
-    nav li a{
+  /*  nav li a{
         text-decoration: none;
         &:hover {
             background-color: aquamarine;
         }       
-    }
+    }*/
 
 }
