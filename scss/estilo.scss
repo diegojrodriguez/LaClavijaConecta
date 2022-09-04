@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,300&family=Nunito:wght@300&family=Poppins:wght@100;200&family=Roboto:ital,wght@0,500;1,300&display=swap');
 @import "variables";
 @import "header";
-
-@import "mapa";
 @import "mixin";
 @import "extend";
 @import "footer";
@@ -144,9 +142,6 @@ body {
 }
 
 /************ GALERIA  ************/
-.galeria {
-    @include estiloParrafos;
-}
 
 .contenedor {
     filter: brightness(70%);
@@ -177,6 +172,7 @@ body {
 
 .boton {
     background-color: $colorSubtitulos;
+    margin: 5px;
 }
 
 /************ UBICACION **************/

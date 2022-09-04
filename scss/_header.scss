@@ -17,16 +17,13 @@ header {
 
     .fontNav {
 
-
         li {
-           /* display: inline-block;*/
+          
             padding: 10px;
-            
-
+          
             a {
                 background-color: black;
                 justify-content: space-between;
-                /*text-decoration: none;*/
                 color: $colorSubtitulos;
                 font-size: 15px;
 
@@ -42,12 +39,5 @@ header {
             background-color: $colorFondo ;
         }
     }
-
-  /*  nav li a{
-        text-decoration: none;
-        &:hover {
-            background-color: aquamarine;
-        }       
-    }*/
 
 }
